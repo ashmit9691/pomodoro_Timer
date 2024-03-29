@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#time {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resetButton {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+#resetButton:hover {
+    background-color: #d32f2f;
+}
+
+.progress {
+    margin-top: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#progressBar {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.break, .interval {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.break h2, .interval h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.break p, .interval p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
